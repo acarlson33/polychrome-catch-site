@@ -50,6 +50,18 @@ export default function Home() {
           <h2 className="text-2xl font-semibold">Quick start</h2>
           <ol className="list-decimal space-y-2 pl-5 text-zinc-600 dark:text-zinc-300">
             <li>Load the extension in Chrome with Developer Mode enabled.</li>
+            <li>
+              Download the extension CRX file from{" "}
+              <a
+                href="https://github.com/acarlson33/polychrome-task-catch/blob/main/extension.crx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline decoration-zinc-300 underline-offset-4 hover:text-zinc-900 dark:decoration-zinc-600 dark:hover:text-zinc-50"
+              >
+                GitHub
+              </a>
+              .
+            </li>
             <li>Open a supported course page and launch the popup.</li>
             <li>
               Review the extracted assignments and click Save to Polychrome.
